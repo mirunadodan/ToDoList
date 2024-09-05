@@ -1,0 +1,63 @@
+.list_container {
+    margin: 2rem;
+    border: 2px solid #023047;
+    display: flex;
+    padding:1rem 2rem;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+.form {
+    width: 100%;
+}
+.weekly_container {
+    /* border: 1px solid red; */
+    /* background-image: url("https://images.pexels.com/photos/574283/pexels-photo-574283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+body {
+    /* background-image: url("./background.jpg"); */
+    /* background-position: center;
+    background-repeat: no-repeat; */
+   
+}
+li {
+    padding: 0.5rem 0 !important;
+    color:#023047 !important
+
+}
+h1 {
+    color:#023047;
+    margin-top: 0;
+}
+button {
+    border: none !important;
+}
+button:hover {
+    transform: translateY(-2.5px);
+    transition: transform ease-in 0.2s;
+    background-color: transparent !important;
+    /* filter: drop-shadow(10px 5px 1px #13131354); */
+    /* box-shadow: 2px 20px 5px #13131354; */
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #fb8500 !important
+}
+.MuiFormLabel-root{
+    color: #023047!important
+}
+.MuiSvgIcon-root {
+    color: #fb8600b3 !important
+}
+.clear {
+    transition: none !important;
+    transform: none !important;
+    background-color: #fb8600b3 !important;
+    text-transform: capitalize !important
+}
+.clear:hover {
+    background-color:  #fb8600 !important
+}
